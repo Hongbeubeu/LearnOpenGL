@@ -13,13 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\HelloTriangle">
+      <UniqueIdentifier>{ca1c8625-1a59-4b48-8643-84b52fed21d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{539b3549-2918-4126-a7b5-b63f2b6bbf16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MyWindow.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\HelloTriangle</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorTriangle.cpp">
+      <Filter>Source Files\Shaders</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

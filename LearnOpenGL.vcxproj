@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ColorTriangle.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="MyWindow.cpp" />
   </ItemGroup>
